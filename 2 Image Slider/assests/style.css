@@ -1,0 +1,42 @@
+body{
+background-image: url(./images/background);
+background-size: cover;
+}
+.hero{
+    padding: 2em;
+}
+.main-div{
+    position: relative;
+    margin: auto;
+    max-width: 45rem;
+    border-radius: 10px;
+}
+.first{
+    margin-top: 12%;
+    aspect-ratio: 16/9;
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    border-radius: 10px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 1px;
+}
+.second a{
+    width: 40px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin: 1.5px;
+}
